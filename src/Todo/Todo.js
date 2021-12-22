@@ -6,7 +6,7 @@ const Todo = () => {
   const [value, setValue] = useState("");
 
   const handleChange = (e) => {
-    setValue(console.log(e.target.value));
+    setValue(e.target.value);
   };
 
   const handleInput = () => {
